@@ -1,6 +1,6 @@
 # planning_Gazebo_ws
-Control drone by code Position + Yaw
-Avoid obstacles by code Ewok
+`*` Control drone by code Position + Yaw <br>
+`*` Avoid obstacles by code Ewok <br>
 
 ## Installation
 ```
