@@ -4,7 +4,14 @@
 
 ## Installation
 ```
-git clone git@github.com:AnhDuy207/planning_Gazebo_ws.git
+mkdir catkin_ws
+cd catkin_ws
+git clone git@github.com:AnhDuy207/planning_Gazebo_ws.git src
+catkin init
+catkin config --extend /opt/ros/noetic
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
+catkin config --merge-devel
+catkin build
 ```
 
 ## Getting started
